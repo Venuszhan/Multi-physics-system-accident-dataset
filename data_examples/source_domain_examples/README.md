@@ -1,12 +1,21 @@
-﻿# Source-Domain Examples
+# Source-Domain Calibration Data
 
-This directory is reserved for small source-domain or calibration examples that are approved for public release.
+This directory contains the initial calibration/source-domain record used to demonstrate the transfer-calibration workflow.
 
-No source-domain experimental data are included by default.
+Included file:
 
-Recommended files for future release:
+| File | Description |
+| --- | --- |
+| `initial_calibration_case_history.csv` | Initial calibration time-series record in CSV format. |
+| `initial_calibration_case_metadata.json` | Metadata describing the calibration record and file schema. |
 
-- `source_example_001.csv`
-- `source_example_001_metadata.json`
-- `README.md` describing provenance, measurement conditions, preprocessing, and usage restrictions
+The CSV file uses the same column convention as the simulation time-series exports, including global case fields, electrical fault variables, stage labels, thermal/smoke variables, and node-level measurements.
 
+Example usage:
+
+```python
+import pandas as pd
+
+df = pd.read_csv("data_examples/source_domain_examples/initial_calibration_case_history.csv")
+print(df[["Time", "Stage", "Fault_Terminal", "Line_Current", "Fire_HRR_Total"]].head())
+```

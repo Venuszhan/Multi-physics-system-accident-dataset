@@ -1,0 +1,18 @@
+{
+  "file": "initial_calibration_case_history.csv",
+  "format": "CSV",
+  "record_type": "initial_calibration_time_series",
+  "case_id": "DC_CONSTANT",
+  "fault_terminal": "KM1_DC",
+  "fault_type": "poor_contact",
+  "current_profile": "constant",
+  "current_setpoint_a": 20.0,
+  "ambient_temp_c": 26.0,
+  "vent_state": "normal",
+  "door_state": "closed",
+  "description": "Initial calibration/source-domain time-series record used to demonstrate the transfer-calibration workflow.",
+  "notes": [
+    "The file follows the same column convention as the simulation time-series exports.",
+    "The Excel version of this record is not included because it duplicates the CSV content and increases repository size."
+  ]
+}

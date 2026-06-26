@@ -40,7 +40,7 @@ These examples are copied from the original simulation outputs.
 
 The full raw per-case output tree is not included because it is too large for a practical GitHub repository. Large per-case files such as `pigat_data.npz` and `history.csv.gz` are also excluded from this compact release.
 
-Source-domain experimental data are not included by default. If released separately, they should be documented with clear provenance and usage restrictions.
+`data_examples/source_domain_examples/` contains the initial calibration/source-domain time-series record used to demonstrate the transfer-calibration workflow.
 
 ## Installation
 
@@ -89,6 +89,13 @@ import pandas as pd
 
 df = pd.read_csv("data_examples/simulation_examples/CASE_00001/system_timeseries.csv.gz")
 print(df.head())
+```
+
+Initial calibration/source-domain data can be loaded with:
+
+```python
+source_df = pd.read_csv("data_examples/source_domain_examples/initial_calibration_case_history.csv")
+print(source_df.head())
 ```
 
 ## Citation

@@ -11,7 +11,7 @@ This repository is a compact public release package for a 1920-case electrical c
 | `case_definitions/` | Complete 1920-case definitions and split manifest. |
 | `results_summary/` | Case-level simulation summary table. |
 | `data_examples/simulation_examples/` | Small raw simulation examples copied from the original per-case outputs. |
-| `data_examples/source_domain_examples/` | Placeholder for permitted source-domain or calibration examples. No unreleased source-domain data are included by default. |
+| `data_examples/source_domain_examples/` | Initial calibration/source-domain time-series record and metadata. |
 | `docs/` | Notes describing how external experimental/literature evidence constrains calibration. |
 
 ## Representative Simulation Examples
@@ -53,8 +53,8 @@ Large files such as `pigat_data.npz` and `history.csv.gz` are intentionally not 
 | Virtual environments | Reproducibility should use `requirements.txt`. |
 | Logs, process IDs, Python cache, backup files | Runtime or local development artifacts. |
 
-## Source-Domain Data Policy
+## Source-Domain Calibration Data
 
-The repository may include small, representative source-domain or calibration examples when they are approved for public release. If source-domain data cannot be released, document the restriction and provide the preprocessing format expected by the calibration workflow.
+The repository includes `data_examples/source_domain_examples/initial_calibration_case_history.csv`, an initial calibration/source-domain time-series record used to demonstrate the transfer-calibration workflow. The duplicated Excel workbook is not included because the CSV contains the same tabular record in a more repository-friendly format.
 
 
