@@ -1,0 +1,10 @@
+﻿zone_name,x_min_mm,x_max_mm,y_min_mm,y_max_mm,z_min_mm,z_max_mm,zone_type,primary_role,source_doc,note
+upper_air_zone,0.0,804.0,0.0,576.5,1250.0,1882.5,air_zone,upper hot-smoke accumulation,SRIDD-T25E8(04)-052,upper cabinet free volume and top harness/fan opening area
+middle_component_zone,110.0,735.0,120.0,500.0,760.0,1250.0,component_zone,main component mounting and heat-source area,SRIDD-T25E8(04)-052,layout drawing shows dense breakers/contactors/relays on middle mounting plate
+lower_terminal_zone,80.0,760.0,120.0,520.0,350.0,760.0,terminal_zone,terminal blocks and lower cable concentration,SRIDD-T25E8(04)-052,bottom portion contains connector rows and wiring outlets
+left_harness_zone,0.0,150.0,80.0,540.0,420.0,1500.0,harness_zone,left vertical harness channel,SRIDD-T25E8(04)-052,left side plate/cable channel region
+right_harness_zone,654.0,804.0,80.0,540.0,420.0,1500.0,harness_zone,right vertical harness channel,SRIDD-T25E8(04)-052,right side plate/cable channel region
+door_zone,0.0,804.0,0.0,95.0,0.0,1882.5,boundary_zone,door-adjacent heat loss and opening boundary,SRIDD-T25E8(04)-052,front door and transparent windows define the front boundary
+backplate_zone,0.0,804.0,500.0,576.5,0.0,1882.5,boundary_zone,metal backplate conduction heat sink,SRIDD-T25E8(04)-052,back view and rear panel form conductive boundary
+vent_zone,220.0,610.0,0.0,140.0,0.0,380.0,ventilation_zone,fan and ventilation opening exchange region,SRIDD-T25E8(04)-052,bottom/front grille and fan-related ventilation path
+

@@ -1,0 +1,9 @@
+﻿key,value,unit,source_doc,note
+width_mm,804.0,mm,SRIDD-T25E8(04)-083,front-view width marked 804 +/- 3
+depth_mm,576.5,mm,SRIDD-T25E8(04)-083,side-view total depth marked 576.5
+height_mm,1882.5,mm,SRIDD-T25E8(04)-083,front-view height marked 1882.5 +/- 3
+material,SUS304,,SRIDD-T25E8(04)-083,technical requirement: SUS 304 JIS G 4305
+ground_resistance_max_ohm,0.01,ohm,SRIDD-T25E8(04)-083,ground studs resistance shall be <= 0.01 ohm
+vent_area_m2,0.036,m2,engineering_estimate,kept from baseline model
+ambient_temp_c,26.0,degC,baseline_model,kept from baseline model
+
